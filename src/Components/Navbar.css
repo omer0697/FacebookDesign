@@ -1,0 +1,180 @@
+.gridContainer{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  
+  
+  background-color: #ffffff ;
+}
+
+.gridItem{
+  justify-content: center;
+  align-items: center;
+}
+
+.item1{
+  position: relative;
+  align-items: center;
+  height: 56px;
+  justify-content: center;
+  text-align: justify;
+}
+
+.item1 svg{
+  position: absolute;
+  margin-left: 16px;
+  width: 128px;
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #1877f2 ;
+}
+
+.item2{
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+  position: relative;
+}
+
+.item2 input{
+  height: 40px;
+  width: 680px;
+  background-color: #f0f2f5;
+  border-radius: 50px ;
+  text-indent: 38px;
+  font-size: .9375rem;
+  border:none;
+
+  outline: none;
+}
+
+.SearchBar{
+  background-color: #f0f2f5;
+  align-items: center;
+  justify-content: center;
+  border: none;
+ 
+}
+
+.icon{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+  padding-left: 12px;
+  
+}
+
+.last{
+  display: flex;
+  gap: 8px;
+  justify-content: end;
+  margin-right: 16px;
+  flex-direction: row;
+  
+  
+}
+.MuiSvgIcon-root{
+  font-size: 20px;
+  display: absolute;
+}
+.number{
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  right: 62px;
+  top: 0px;
+  height: 19px;
+  width: 19px;
+  color: white;
+  text-align: center;
+}
+.txt{
+  position: relative;
+  margin-top: 4px;
+  width: 19px;
+  height: 19px;
+}
+
+.openSearch{
+  position: absolute;
+  height: 469px;
+  width: 680px;
+  background-color: white;
+  top: 0 ;
+  margin-top: 56px;
+  border-radius:8px ;
+  box-shadow: 5px;
+  z-index:1 ;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  padding-top: 12px;
+  padding-left: 8px;
+  font-weight: 600;
+}
+.arama{
+  width: 586px;
+  height: 21px;
+  font-size: 17px;
+  margin-left: 5px;
+  line-height: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputr{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top1{
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  padding-top: 12px;
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 660px;
+  height: 40px;
+  
+  
+}
+.avatar{
+  margin-left: 8px;
+}
+.name1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.NameSection1{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 200px;
+}
+.friends{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(101, 103, 107);
+}
+.iconClose{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  
+  
+}
+.iconcls{
+  margin-right: 9px;
+  color: #606770;
+}
